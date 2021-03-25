@@ -1,0 +1,41 @@
+==========================================
+==========       config      =============
+==========================================
+gpu_id:7
+s:0
+t:3
+output:logs/uda/run1/
+seed:0
+max_epoch:50
+batch_size:36
+worker:4
+bottleneck_dim:256
+net:resnet50
+dset:office-home
+lr:0.01
+pl:atdoc_naatdoc_na5
+K:5
+momentum:1.0
+alpha:0.75
+lambda_u:100
+T:0.5
+ema_decay:0.999
+eval_epoch:5.0
+class_num:65
+s_dset_path:./data/office-home/Art_list.txt
+t_dset_path:./data/office-home/RealWorld_list.txt
+test_dset_path:./data/office-home/RealWorld_list.txt
+output_dir:logs/uda/run1/mixmatch/office-home/AR
+name:AR
+log:mixmatch_atdoc_naatdoc_na5
+out_file:<_io.TextIOWrapper name='logs/uda/run1/mixmatch/office-home/AR/mixmatch_atdoc_naatdoc_na5.txt' mode='w' encoding='UTF-8'>
+
+==========================================
+
+Task: AR, Iter:605/6050; Accuracy = 72.76%; Mean Ent = 1.4166
+Task: AR, Iter:1210/6050; Accuracy = 75.37%; Mean Ent = 1.3595
+Task: AR, Iter:1815/6050; Accuracy = 76.75%; Mean Ent = 1.1428
+Task: AR, Iter:2420/6050; Accuracy = 77.19%; Mean Ent = 1.2178
+Task: AR, Iter:3025/6050; Accuracy = 78.04%; Mean Ent = 1.0779
+Task: AR, Iter:3630/6050; Accuracy = 79.14%; Mean Ent = 1.1267
+Task: AR, Iter:4235/6050; Accuracy = 79.30%; Mean Ent = 1.0302

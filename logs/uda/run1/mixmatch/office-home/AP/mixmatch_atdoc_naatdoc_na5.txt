@@ -1,0 +1,34 @@
+==========================================
+==========       config      =============
+==========================================
+gpu_id:7
+s:0
+t:2
+output:logs/uda/run1/
+seed:0
+max_epoch:50
+batch_size:36
+worker:4
+bottleneck_dim:256
+net:resnet50
+dset:office-home
+lr:0.01
+pl:atdoc_naatdoc_na5
+K:5
+momentum:1.0
+alpha:0.75
+lambda_u:100
+T:0.5
+ema_decay:0.999
+eval_epoch:5.0
+class_num:65
+s_dset_path:./data/office-home/Art_list.txt
+t_dset_path:./data/office-home/Product_list.txt
+test_dset_path:./data/office-home/Product_list.txt
+output_dir:logs/uda/run1/mixmatch/office-home/AP
+name:AP
+log:mixmatch_atdoc_naatdoc_na5
+out_file:<_io.TextIOWrapper name='logs/uda/run1/mixmatch/office-home/AP/mixmatch_atdoc_naatdoc_na5.txt' mode='w' encoding='UTF-8'>
+
+==========================================
+

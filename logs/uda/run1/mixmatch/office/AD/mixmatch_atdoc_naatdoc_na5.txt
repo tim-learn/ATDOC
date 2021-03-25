@@ -1,0 +1,39 @@
+==========================================
+==========       config      =============
+==========================================
+gpu_id:7
+s:0
+t:1
+output:logs/uda/run1/
+seed:0
+max_epoch:100
+batch_size:36
+worker:4
+bottleneck_dim:256
+net:resnet50
+dset:office
+lr:0.01
+pl:atdoc_naatdoc_na5
+K:5
+momentum:1.0
+alpha:0.75
+lambda_u:100
+T:0.5
+ema_decay:0.999
+eval_epoch:10.0
+class_num:31
+s_dset_path:../data/office/amazon_list.txt
+t_dset_path:../data/office/dslr_list.txt
+test_dset_path:../data/office/dslr_list.txt
+output_dir:logs/uda/run1/mixmatch/office/AD
+name:AD
+log:mixmatch_atdoc_naatdoc_na5
+out_file:<_io.TextIOWrapper name='logs/uda/run1/mixmatch/office/AD/mixmatch_atdoc_naatdoc_na5.txt' mode='w' encoding='UTF-8'>
+
+==========================================
+
+Task: AD, Iter:780/7800; Accuracy = 85.94%; Mean Ent = 0.6320
+Task: AD, Iter:1560/7800; Accuracy = 88.76%; Mean Ent = 0.4815
+Task: AD, Iter:2340/7800; Accuracy = 89.16%; Mean Ent = 0.4171
+Task: AD, Iter:3120/7800; Accuracy = 89.16%; Mean Ent = 0.3950
+Task: AD, Iter:3900/7800; Accuracy = 89.16%; Mean Ent = 0.4243
