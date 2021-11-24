@@ -5,7 +5,7 @@
 [Update @ Nov 23 2021] 
 
 1. **[For Office, please change the *max-epoch* to 100; for VISDA-C, change the *max-epoch* to 1 and change the *net* to resnet101]**
-2. **Add the code associated with SSDA**
+2. **Add the code associated with SSDA, change the *max-epoch* to 20 for DomainNet-126**
 3. **Thank @lyxok1 for pointing out the typo in Eq.(6), we have corrected it in the new verison of this paper.**
 
 
