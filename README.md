@@ -2,9 +2,15 @@
 
 [**[CVPR-2021] Domain Adaptation with Auxiliary Target Domain-Oriented Classifier**](https://arxiv.org/pdf/2007.04171.pdf)
 
-Below is the demo for **ATDOC** on a UDA task of Office-Home [*max_epoch* to 50]:
+[Update @ Nov 23 2021] 
 
-<u>[For Office, please change the *max-epoch* to 100; for VISDA-C, change the *max-epoch* to 1 and change the *net* to resnet101]</u>
+1. **[For Office, please change the *max-epoch* to 100; for VISDA-C, change the *max-epoch* to 1 and change the *net* to resnet101]**
+2. **Add the code associated with SSDA**
+3. **Thank @lyxok1 for pointing out the typo in Eq.(6), we have corrected it in the new verison of this paper.**
+
+
+
+Below is the demo for **ATDOC** on a UDA task of Office-Home [*max_epoch* to 50]:
 
 
 1. installing packages
